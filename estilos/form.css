@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    background: rgb(245,151,45);
+background: linear-gradient(0deg, rgba(245,151,45,1) 0%, rgba(216,58,119,1) 100%);
+  }
+  .h1
+  {
+    text-align: center;
+  }
+  .header {
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 20px 0px;
+  }
+    
+  .div-menu {
+    width: 50%;
+  }
+  
+  .div-menu img {
+    margin-right: 20px;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  main h1 {
+    font-family: 'Grechen Fuemen', cursive;
+  }
+  
+  main img {
+     width: 500px; 
+  }
+  
+  main p {
+    font-style: italic;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    main img {
+      width: 100%;
+    }
+  }
+  
+  footer {
+    height: 50px;
+    background-color: greenyellow;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 20px;
+  }
+  
+  .tabla {
+    background-color: black;
+    color: white;
+  }
